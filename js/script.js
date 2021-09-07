@@ -37,8 +37,11 @@ $(document).ready(function(){
 		$('body').toggleClass('lock');
 	});
 	//spoller
+	
 	$('.menu__arrow').click(function(event) {
-		$(this).toggleClass('_open').next().slideToggle(300);
-		
+		if (window.innerWidth < 768 && isMobile.any()){
+			$(this).toggleClass('_open').next().slideToggle(300);
+			}
+	
 	});
 });
