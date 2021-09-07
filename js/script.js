@@ -33,12 +33,12 @@ window.onload = function (){
 $(document).ready(function(){
 	//Burger
 	$('.icon-menu').click(function(event) {
-		$('.icon-menu, .menu__body').toggleClass('_active');
+		$('.icon-menu, .menu__body').toggleClass('_open');
 		$('body').toggleClass('lock');
 	});
 	//spoller
 	$('.menu__arrow').click(function(event) {
-		$(this).toggleClass('_active').next().slideToggle(300);
+		$(this).toggleClass('_open').next().slideToggle(300);
 		
 	});
 });
