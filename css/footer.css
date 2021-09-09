@@ -92,6 +92,36 @@
 @media (max-width: 992px){
 	.menu-footer__list{
 		margin: 0 0 1em 0;
+		
+	}
+}
+@media (max-width: 768px){
+	.menu-footer__list{
+		display: none;
+	}
+	.menu-footer__list ._init{
+		display: block;
+	}
+	.menu-footer__button{
+	display: flex;
+	align-items: center;
+}
+	.menu-footer__button ._icon-arrow-down{
+		display: block;
+		transition: all .3s ease;
+		font-size: 12px;
+		margin: 0 0 .67em 15px;
+	}
+	.menu-footer__button._init ._icon-arrow-down{
+		transform: rotate(-180deg);
+		color:  #D2691E;
+	}
+}
+
+
+@media (min-width: 768px){
+	.menu-footer__button ._icon-arrow-down{
+		display: none;
 	}
 }
 .menu-footer__link {
@@ -103,26 +133,6 @@
 @media (any-hover: hover){
 	.menu-footer__link:hover{
 		color:  #D2691E;
-	}
-}
-.menu-footer__button{
-	display: flex;
-	align-items: center;
-	/* justify-content: space-between; */
-}
-.menu-footer__column ._icon-arrow-down{
-	display: block;
-	transition: all .3s ease;
-	font-size: 12px;
-	margin: 0 0 .67em 15px;
-}
-._icon-arrow-down._init{
-	transform: rotate(-180deg);
-	color:  #D2691E;
-}
-@media (min-width: 768px){
-	._icon-arrow-down{
-		display: none;
 	}
 }
 
@@ -141,6 +151,11 @@
 	color: #828282;
 	border: none;
 }
+@media (min-width: 768px) and (max-width: 992px){
+	.subscrib__input {
+		width: 50%;
+	}
+}
 ._req {}
 ._email {}
 .subscrib__button {
@@ -156,7 +171,6 @@
 }
 @media (any-hover: hover){
 	.subscrib__button:hover{
-		background: #843f0e;:  #D2691E;
+		background: #843f0e;
 	}
 }
-._icon-sent {}

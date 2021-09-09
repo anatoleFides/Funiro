@@ -44,4 +44,10 @@ $(document).ready(function(){
 			}
 	
 	});
+	$('.menu-footer__button').click(function(event) {
+		if (window.innerWidth < 768 && isMobile.any()){
+			$(this).toggleClass('_init').next().slideToggle(300);
+			}
+	
+	});
 });
