@@ -1,8 +1,8 @@
 @import url('nulstyle.css');
 @import url('fonts.css');
 @import url('icons.css');
+@import url('allstyle.css');
 @import url('header.css');
+@import url('mainSlider.css');
+@import url('footer.css');
 
-body{
-	font-family: 'Gilroy';
-}

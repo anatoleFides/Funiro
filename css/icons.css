@@ -12,7 +12,7 @@
 
 [class^="_icon-"], [class*=" _icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icons' !important;
+  font-family: 'icons';
 /*   speak: never; */
   font-style: normal;
   font-weight: normal;
@@ -52,3 +52,5 @@
 ._icon-share:before {
   content: "\e908";
 }
+
+/* !important */
