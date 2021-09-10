@@ -115,13 +115,13 @@
 	align-items: center;
 	justify-content: space-between;
 }
-	.menu-footer__button ._icon-arrow-down{
+	.menu-footer__arrow{
 		display: block;
 		transition: all .3s ease;
 		font-size: 14px;
 		margin: 0 0 .67em 15px;
 	}
-	.menu-footer__button._init ._icon-arrow-down{
+	.menu-footer__button._init .menu-footer__arrow{
 		transform: rotate(-180deg);
 		color:  #D2691E;
 	}
