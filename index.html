@@ -5,185 +5,188 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Funiro.</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 	<body>
-		<header class="header">
-			<div class="header__wrapper">
-				<div class="header__container container">
-					<div class="header__body">
-						<div class="header__main">
-							<a href="#" class="header__logo">Funiro.</a>
-							<div class="header__menu menu">
-								<nav class="menu__body">
-									<ul class="menu__list">
-										<li class="menu__item">
-											<a href="#" class="menu__link">Products</a>
-											<button type="button" class="menu__arrow _icon-arrow-down"></button>
-											<ul class="menu__sub-list">
-												<li class="menu__sub-item">
-													<a href="#" class="menu-sub-link">Product #1</a>
-												</li>
-												<li class="menu__sub-item">
-													<a href="#" class="menu-sub-link">Product #2</a>
-												</li>
-												<li class="menu__sub-item">
-													<a href="#" class="menu-sub-link">Product #3</a>
-												</li>
-												<li class="menu__sub-item">
-													<a href="#" class="menu-sub-link">Product #4</a>
-												</li>
-											</ul>
-										</li>
-										<li class="menu__item">
-											<a href="#" class="menu__link">Rooms</a>
-											<button type="button" class="menu__arrow _icon-arrow-down"></button>
-											<ul class="menu__sub-list">
-												<li class="menu__sub-item">
-													<a href="#" class="menu-sub-link">Room #1</a>
-												</li>
-												<li class="menu__sub-item">
-													<a href="#" class="menu-sub-link">Room #2</a>
-												</li>
-												<li class="menu__sub-item">
-													<a href="#" class="menu-sub-link">Room #3</a>
-												</li>
-												<li class="menu__sub-item">
-													<a href="#" class="menu-sub-link">Room #4</a>
-												</li>
-											</ul>
-										</li>
-										<li class="menu__item">
-											<a href="#" class="menu__link">Inspirations</a>
-										</li>
-									</ul>
-								</nav>
-							</div>
-						</div>
-						<div class="header__search">
-							<div class="search-form">
-								<button type="button" class="search-form__icon _icon-search"></button>
-								<form action="#" class="search-form__item">
-									<button type="submit" class="search-form__btn _icon-search"></button>
-									<input autocomplete="off" type="text" name="form[]" placeholder="Search for minimalist chair" class="search-form__input">
-								</form>
-							</div>
-						</div>
-						<div class="header__actions actions-header">
-							<a href="#" class="actions-header__item actions-header__item_favorite _icon-favorite"></a>
-							<div class="actions-header__item cart-header">
-								<a href="#" class="cart-header__icon _icon-cart"></a>
-								<div class="cart-header__body">
-									<ul class="cart-header__list cart-list"></ul>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__wrapper">
+					<div class="header__container container">
+						<div class="header__body">
+							<div class="header__main">
+								<a href="#" class="header__logo">Funiro.</a>
+								<div class="header__menu menu">
+									<nav class="menu__body">
+										<ul class="menu__list">
+											<li class="menu__item">
+												<a href="#" class="menu__link">Products</a>
+												<button type="button" class="menu__arrow _icon-arrow-down"></button>
+												<ul class="menu__sub-list">
+													<li class="menu__sub-item">
+														<a href="#" class="menu-sub-link">Product #1</a>
+													</li>
+													<li class="menu__sub-item">
+														<a href="#" class="menu-sub-link">Product #2</a>
+													</li>
+													<li class="menu__sub-item">
+														<a href="#" class="menu-sub-link">Product #3</a>
+													</li>
+													<li class="menu__sub-item">
+														<a href="#" class="menu-sub-link">Product #4</a>
+													</li>
+												</ul>
+											</li>
+											<li class="menu__item">
+												<a href="#" class="menu__link">Rooms</a>
+												<button type="button" class="menu__arrow _icon-arrow-down"></button>
+												<ul class="menu__sub-list">
+													<li class="menu__sub-item">
+														<a href="#" class="menu-sub-link">Room #1</a>
+													</li>
+													<li class="menu__sub-item">
+														<a href="#" class="menu-sub-link">Room #2</a>
+													</li>
+													<li class="menu__sub-item">
+														<a href="#" class="menu-sub-link">Room #3</a>
+													</li>
+													<li class="menu__sub-item">
+														<a href="#" class="menu-sub-link">Room #4</a>
+													</li>
+												</ul>
+											</li>
+											<li class="menu__item">
+												<a href="#" class="menu__link">Inspirations</a>
+											</li>
+										</ul>
+									</nav>
 								</div>
 							</div>
-							<a href="#" class="actions-header__item actions-header__item_user _ibg">
-								<img src="image/avatarZidane.jpg" alt="Avatar">
-							</a>
-						</div>
-					</div>
-					<button type="button" class="icon-menu">
-						<span></span>
-						<span></span>
-						<span></span>
-					</button>
-				</div>
-			</div>
-		</header>
-		<main class="page">
-			<section class="page__main-slider main-slider">
-				<div class="main-slider__container container">
-					<div class="main-slider__body">
-						<div class="main-slider__content content-main">
-							<h1 class="content-main__title"></h1>
-							<div class="content-main__text"></div>
-							<a href="#" class="content-main__button"></a>
-						</div>
-						<div class="main-slider__slider slider-main">
-							<div class="slider-main__controls controls-slider-main">
-								<div class="controls-slider-main__dots"></div>
-								<div class="controls-slider-main__arrows slider-arrows ">
-									<button type="button" class="slider-arrows slider-arrows_prev _icon-arrow-down"></button>
-									<button type="button" class="slider-arrows slider-arrows_next _icon-arrow-down"></button>
+							<div class="header__search">
+								<div class="search-form">
+									<button type="button" class="search-form__icon _icon-search"></button>
+									<form action="#" class="search-form__item">
+										<button type="submit" class="search-form__btn _icon-search"></button>
+										<input autocomplete="off" type="text" name="form[]" placeholder="Search for minimalist chair" class="search-form__input">
+									</form>
 								</div>
 							</div>
-							<div class="slider-main__body">
-								<div class="slider-main__slide">
-									<div class="slider-main__image">
-										<img src="" alt="Image">
+							<div class="header__actions actions-header">
+								<a href="#" class="actions-header__item actions-header__item_favorite _icon-favorite"></a>
+								<div class="actions-header__item cart-header">
+									<a href="#" class="cart-header__icon _icon-cart"></a>
+									<div class="cart-header__body">
+										<ul class="cart-header__list cart-list"></ul>
 									</div>
-									<a href="#" class="slider-main__content">
-										<div class="slider-main__title"></div>
-										<div class="slider-main__text"></div>
-										<div class="slider-main__price _icon-arrow-link"></div>
-									</a>
+								</div>
+								<a href="#" class="actions-header__item actions-header__item_user _ibg">
+									<img src="image/avatarZidane.jpg" alt="Avatar">
+								</a>
+							</div>
+						</div>
+						<button type="button" class="icon-menu">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</header>
+			<main class="page">
+				<section class="page__main-slider main-slider">
+					<div class="main-slider__container container">
+						<div class="main-slider__body">
+							<div class="main-slider__content content-main">
+								<h1 class="content-main__title">High-Quality Furniture Just For You</h1>
+								<div class="content-main__text">Our furniture is made from selected and best quality materials that are suitanlefor your dream home</div>
+								<a href="#" class="content-main__button">Shop Now</a>
+							</div>
+							<div class="main-slider__slider slider-main ">
+								<div class="slider-main__controls controls-slider-main">
+									<div class="controls-slider-main__dots"></div>
+									<div class="controls-slider-main__arrows slider-arrows ">
+										<button type="button" class="slider-arrows slider-arrows_prev _icon-arrow-down"></button>
+										<button type="button" class="slider-arrows slider-arrows_next _icon-arrow-down"></button>
+									</div>
+								</div>
+								<div class="slider-main__body swiper">
+									<div class="slider-main__slide">
+										<div class="slider-main__image _ibg">
+											<img src="image/slide01.jpg" alt="Image">
+										</div>
+										<a href="#" class="slider-main__content">
+											<div class="slider-main__title">Bohauss</div>
+											<div class="slider-main__text">Luxury big sofa 2-seat</div>
+											<div class="slider-main__price _icon-arrow-link">Rp 17.000.000</div>
+										</a>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+				</section>
+			</main>
+			<footer class="footer">
+				<div class="footer__container container">
+					<div class="footer__body">
+						<div class="footer__main">
+							<a href="#" class="footer__logo _footer-title">Funiro.</a>
+							<div class="footer__text">Worldwide furniture store sinse 2020. We sell over 1000+ branded products on ourwebsite</div>
+							<div class="footer__contacts contacts-footer">
+								<a href="" class="contacts-footer__item _icon-location">Sawojajar Malang, Indonesia</a>
+								<a href="tel:+62894563455" class="contacts-footer__item _icon-phone">+6289 456 3455</a>
+								<a href="www.funiro.com" target="_blank" class="contacts-footer__item">www.funiro.com</a>
+							</div>
+						</div>
+						<div class="footer__menu menu-footer">
+							<div class="menu-footer__column">
+								<div class="menu-footer__button">
+									<button type="button" class="menu-footer__title _footer-title">Menu</button>
+									<div class="menu-footer__arrow _icon-arrow-down"></div>
+								</div>
+								<ul class="menu-footer__list">
+									<li><a href="#" class="menu-footer__link">Products</a></li>
+									<li><a href="#" class="menu-footer__link">Rooms</a></li>
+									<li><a href="#" class="menu-footer__link">Inspirations</a></li>
+									<li><a href="#" class="menu-footer__link">About As</a></li>
+									<li><a href="#" class="menu-footer__link">Terms & Policy</a></li>
+								</ul>
+							</div>
+							<div class="menu-footer__column">
+								<div class="menu-footer__button">
+									<button type="button" class="menu-footer__title _footer-title">Account</button>
+									<div class="menu-footer__arrow _icon-arrow-down"></div>
+								</div>
+								<ul class="menu-footer__list">
+									<li><a href="#" class="menu-footer__link">My account</a></li>
+									<li><a href="#" class="menu-footer__link">Checkout</a></li>
+									<li><a href="#" class="menu-footer__link">My cart</a></li>
+									<li><a href="#" class="menu-footer__link">My catalog</a></li>
+								</ul>
+							</div>
+							<div class="menu-footer__column">
+								<div class="menu-footer__button">
+									<button type="button" class="menu-footer__title _footer-title">Stay connected</button>
+									<div class="menu-footer__arrow _icon-arrow-down"></div>
+								</div>
+								<ul class="menu-footer__list">
+									<li><a href="#" class="menu-footer__link">Facebook</a></li>
+									<li><a href="#" class="menu-footer__link">Instagram</a></li>
+									<li><a href="#" class="menu-footer__link">Twitter</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="footer__subscrib subscrib">
+							<div class="subscrib__title _footer-title">Stay Updated</div>
+							<form data-message="subscrib" data-test action="#" class="subscrib__form">
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Enter your email" class="subscrib__input _req _email">
+								<button type="submit" class="subscrib__button _icon-send"></button>
+							</form>
+						</div>
+					</div>
 				</div>
-			</section>
-		</main>
-		<footer class="footer">
-			<div class="footer__container container">
-				<div class="footer__body">
-					<div class="footer__main">
-						<a href="#" class="footer__logo _footer-title">Funiro.</a>
-						<div class="footer__text">Worldwide furniture store sinse 2020. We sell over 1000+ branded products on ourwebsite</div>
-						<div class="footer__contacts contacts-footer">
-							<a href="" class="contacts-footer__item _icon-location">Sawojajar Malang, Indonesia</a>
-							<a href="tel:+62894563455" class="contacts-footer__item _icon-phone">+6289 456 3455</a>
-							<a href="www.funiro.com" target="_blank" class="contacts-footer__item">www.funiro.com</a>
-						</div>
-					</div>
-					<div class="footer__menu menu-footer">
-						<div class="menu-footer__column">
-							<div class="menu-footer__button">
-								<button type="button" class="menu-footer__title _footer-title">Menu</button>
-								<div class="menu-footer__arrow _icon-arrow-down"></div>
-							</div>
-							<ul class="menu-footer__list">
-								<li><a href="#" class="menu-footer__link">Products</a></li>
-								<li><a href="#" class="menu-footer__link">Rooms</a></li>
-								<li><a href="#" class="menu-footer__link">Inspirations</a></li>
-								<li><a href="#" class="menu-footer__link">About As</a></li>
-								<li><a href="#" class="menu-footer__link">Terms & Policy</a></li>
-							</ul>
-						</div>
-						<div class="menu-footer__column">
-							<div class="menu-footer__button">
-								<button type="button" class="menu-footer__title _footer-title">Account</button>
-								<div class="menu-footer__arrow _icon-arrow-down"></div>
-							</div>
-							<ul class="menu-footer__list">
-								<li><a href="#" class="menu-footer__link">My account</a></li>
-								<li><a href="#" class="menu-footer__link">Checkout</a></li>
-								<li><a href="#" class="menu-footer__link">My cart</a></li>
-								<li><a href="#" class="menu-footer__link">My catalog</a></li>
-							</ul>
-						</div>
-						<div class="menu-footer__column">
-							<div class="menu-footer__button">
-								<button type="button" class="menu-footer__title _footer-title">Stay connected</button>
-								<div class="menu-footer__arrow _icon-arrow-down"></div>
-							</div>
-							<ul class="menu-footer__list">
-								<li><a href="#" class="menu-footer__link">Facebook</a></li>
-								<li><a href="#" class="menu-footer__link">Instagram</a></li>
-								<li><a href="#" class="menu-footer__link">Twitter</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="footer__subscrib subscrib">
-						<div class="subscrib__title _footer-title">Stay Updated</div>
-						<form data-message="subscrib" data-test action="#" class="subscrib__form">
-							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Enter your email" class="subscrib__input _req _email">
-							<button type="submit" class="subscrib__button _icon-send"></button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</footer>
+			</footer>
+		</div>
 		<script src="js/script.js"></script>
 	</body>
 </html>	
