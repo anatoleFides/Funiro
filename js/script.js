@@ -76,24 +76,24 @@ $(document).ready(function(){
 
 //Swiper
 if (document.querySelector('.slider-main__body')){
-	new Swiper ('slider-main__body', {
-		observer: true,
-		observerParents: true,
+	new Swiper ('.slider-main__body', {
+		// observer: true,
+		// observerParents: true,
 		slidesPerView: 1,
 		spaceBetween: 32,
-		watchOverflow: true,
-		speed: 800,
-		loop: true,
-		loopAdditionalSlides: 5,
-		preloadImages: false,
-		parallax: true,
+		// watchOverflow: true,
+		// speed: 800,
+		// loop: true,
+		// loopAdditionalSlides: 5,
+		// preloadImages: false,
+		// parallax: true,
 		pagination: {
-			el: 'controls-slider-main__dots',
+			el: '.controls-slider-main__dots',
 			clickable: true,
 		},
 		navigation:{
-			nextEl: '.slider-main .slider-arrow_next',
-			prevEL: '.slider-main .slider-arrow_prev',
+			nextEl: '.slider-arrow .slider-arrow_next',
+			prevEL: '.slider-arrow .slider-arrow_prev',
 		}
 	});
 }
