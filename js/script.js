@@ -34,7 +34,7 @@ $(document).ready(function(){
 	//Burger
 	$('.icon-menu').click(function(event) {
 		$('.icon-menu, .menu__body').toggleClass('_open');
-		$('body').toggleClass('lock');
+		//$('body').toggleClass('lock');
 	});
 	//spoller
 	
@@ -92,8 +92,8 @@ if (document.querySelector('.slider-main__body')){
 			clickable: true,
 		},
 		navigation:{
-			nextEl: '.slider-main .slider-arrows_next',
-			prevEL: '.slider-main .slider-arrows_prev',
+			nextEl: '.slider-main .slider-arrow_next',
+			prevEL: '.slider-main .slider-arrow_prev',
 		}
 	});
 }

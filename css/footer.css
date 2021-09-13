@@ -36,8 +36,6 @@
 		margin-bottom: 16px;
 	}
 }
-.footer__logo {}
-
 .footer__text {
 	line-height: 150%;
 	color: #A9A9A9;
@@ -115,13 +113,13 @@
 	align-items: center;
 	justify-content: space-between;
 }
-	.menu-footer__arrow{
+	.menu-footer__button ._icon-arrow-down{
 		display: block;
 		transition: all .3s ease;
 		font-size: 14px;
 		margin: 0 0 .67em 15px;
 	}
-	.menu-footer__button._init .menu-footer__arrow{
+	.menu-footer__button._init ._icon-arrow-down{
 		transform: rotate(-180deg);
 		color:  #D2691E;
 	}
