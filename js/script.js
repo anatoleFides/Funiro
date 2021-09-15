@@ -82,7 +82,7 @@ if (document.querySelector('.slider-main__body')){
 		slidesPerView: 1,
 		spaceBetween: 32,
 		watchOverflow: true,
-		speed: 800,
+		speed: 1200,
 		loop: true,
 		loopAdditionalSlides: 5,
 		preloadImages: false,
