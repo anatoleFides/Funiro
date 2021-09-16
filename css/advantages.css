@@ -17,9 +17,10 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-@media (max-width: 768px){
+@media (max-width: 560px){
 	.advantages__container{
 		flex-direction: column;
+
 	}
 }
 .advantages__item {
@@ -37,6 +38,7 @@
 	.advantages__item{
 		grid-template: auto auto / auto 1fr;
 		column-gap: 25px;
+		flex: 0 0 50%;
 	}
 }
 .advantages__icon {
