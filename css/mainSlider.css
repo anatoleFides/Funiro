@@ -330,4 +330,7 @@
 	.slider-main__title {
 		font-size: 22px;
 	}
+	.slider-main__price:before{
+		font-size: 16px;
+	}
 }
