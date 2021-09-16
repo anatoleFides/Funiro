@@ -19,17 +19,13 @@
 		width: 100vw;
 		height: 100%;
 		background: #f9f1e7;
-
-
 	}
 }
-
 .main-slider__body{
 	position: relative;
 	z-index: 2;
 	padding: 140px 0 0 0;
 	overflow: visible;
-
 }
 @media (max-width: 992px){
 	.main-slider__body{
@@ -247,7 +243,7 @@
 }
 .slider-main__image {
 	position: relative;
-	padding: 0 0 58% 0;
+	padding: 0 0 54% 0;
 }
 @media (max-width: 992px){
 	.slider-main__image{

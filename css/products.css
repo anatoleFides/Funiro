@@ -1,0 +1,120 @@
+.page__products {}
+.products {
+	padding-bottom: 44px;
+}
+@media (min-width: 768px){
+	.products {
+		padding-bottom: 30px;
+	}
+}
+.products__container {}
+.container {}
+.products__title {
+	margin: 0 0 0.8em 0;
+}
+
+.products__items {
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(285px, 1fr));
+	gap: 32px;
+}
+.products__item {
+
+}
+.item-product {
+	background: #f4f5f7;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+.item-product__labels {
+	position: absolute;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	right: 24px;
+	top: 24px;
+}
+@media (min-width: 768px){
+	.item-product__labels{
+		right: 10px;
+		top: 10px;
+	}
+}
+.item-product__label {
+	flex: 0 0 48px;
+	justify-content: center;
+	align-items: center;
+	width: 48px;
+	border-radius: 50%;
+	color: #fff;
+	font-weight: 500;
+}
+.item-product__label:not(:last-child){
+	margin: 0 0 10px 0;
+}
+.item-product__label_sale {
+	background: #e97171;
+}
+.item-product__label_new{
+	background: #2ec1ac;
+}
+.item-product__image {
+	padding: 0 0 106% 0;
+}
+._ibg {}
+.item-product__body {
+	flex: 1 1 auto;
+	padding: 16px 16px 30px;
+	display: flex;
+	flex-direction: column;
+}
+.item-product__content {
+	flex: 1 1 auto;
+}
+.item-product__title{
+	font-size: 24px;
+	line-height: 120%;
+	font-weight: 600;
+	margin: 0 0 0.33em 0;
+}
+.item-product__text{
+	margin: 0 0 0.33em 0;
+	line-height: 150%;
+	color: #595959;
+}
+.item-product__prices {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	line-height: 150%;
+}
+.item-product__price {
+	font-size: 20px;
+	font-weight: 600;
+}
+@media (max-width: 768px){
+	.item-product__price {
+		font-size: 16px;
+	}
+}
+.item-product__price_old {
+	background: #b0b0b0;
+	font-size: 16px;
+	margin: 0 0 0 16px;
+	font-weight: normal;
+}
+@media (max-width: 768px){
+	.item-product__price_old {
+		font-size: 14px;
+	}
+}
+.item-product__actions {}
+.actions-product {}
+.actions-product__body {}
+.actions-product__button {}
+.btn {}
+.btn__white {}
+.actions-product__link {}
+._icon-share {}
+._icon-favorite {}
