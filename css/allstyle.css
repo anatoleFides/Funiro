@@ -30,6 +30,16 @@ button{
 	min-height: 48px;
 	transition: all .3s ease;
 }
+.btn__white{
+	color: #D2691E;
+	background: #fff;
+}
+@media (any-hover: hover){
+	.btn__white:hover{
+		background: #D2691E;
+		color: #fff;
+	}
+}
 .container{
 	max-width: 1240px;
 	padding: 0 15px;
@@ -58,14 +68,14 @@ button{
 		font-size: 20px;
 	}
 }
-/*._ibg {
+._ibg {
 	position: absolute;
 	left: 0;
 	top: 0;
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-}*/
+}
 
 /*ARROWS*/
 .slider-arrows {
