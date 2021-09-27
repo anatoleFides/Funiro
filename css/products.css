@@ -110,6 +110,7 @@
 	font-size: 16px;
 	margin: 0 0 0 16px;
 	font-weight: normal;
+	text-decoration: line-through;
 }
 @media (max-width: 768px){
 	.item-product__price_old {
@@ -138,7 +139,6 @@
 		z-index: 3;
 	}
 }
-.actions-product {}
 .actions-product__body {
 	display: flex;
 	flex-wrap: wrap;
@@ -171,5 +171,11 @@
 	margin: 0 10px 0 0;
 	font-family: 'icons';
 }
-._icon-share {}
-._icon-favorite {}
+.products__footer{
+	padding: 32px 0 0 0;
+	text-align: center;
+}
+.products__more{
+	min-width: 245px;
+	border: 1px solid #D2691E;
+}
