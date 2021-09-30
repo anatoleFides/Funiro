@@ -48,6 +48,7 @@ window.onload = function (){
 	const headerObserver = new IntersectionObserver(callback);
 	headerObserver.observe(headerElement);
 }
+}
 
 $(document).ready(function(){
 	//Burger
